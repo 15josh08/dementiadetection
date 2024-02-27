@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #666;
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
 </head>
 <body>
     <h2>Prediction Result</h2>
-    <p>The patient is predicted to be: {{ prediction }}</p>
+    <p>The patient is predicted to be: <strong>{{ prediction }}</strong></p>
 </body>
 </html>
